@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+/* navegador */
+.navegador ul li{
+    color: white;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.navegador ul li a{
+    color: white;
+}
+
+/* PROMOCIONES */
+
+.promociones{
+    margin-top: 150px;
+}
+
+.promociones h2{
+    color: white;
+    font-size: 50px;
+}
+
+.promociones h5{
+    color: white;
+}
+
+/* BANNER INFO */
+
+.banner-informacion{
+margin-top: 100px;
+color: white;
+}
+
+.banner-informacion i{
+    font-size: 50px;
+    
+}
