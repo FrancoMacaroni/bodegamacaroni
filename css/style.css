@@ -1,46 +1,349 @@
-*{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-color: black;
-}
-
-/* navegador */
-.navegador ul li{
-    color: white;
-    padding: 0 20px;
-    font-size: 20px;
-}
-
-.navegador ul li a{
-    color: white;
+body {
+  background-color: black;
 }
 
 /* PROMOCIONES */
-
-.promociones{
-    margin-top: 150px;
+.promociones {
+  margin-top: 100px;
 }
 
-.promociones h2{
-    color: white;
-    font-size: 50px;
+.promociones h2 {
+  color: white;
+  font-size: 50px;
 }
 
-.promociones h5{
-    color: white;
+.promociones h5 {
+  color: white;
 }
 
-/* BANNER INFO */
-
-.banner-informacion{
-margin-top: 100px;
-color: white;
+.alizarin {
+  background: #e74c3c;
 }
 
-.banner-informacion i{
-    font-size: 50px;
-    
+.amethyst {
+  background: #9b59b6;
 }
+
+.emerald {
+  background: #2ecc71;
+}
+
+.midnight-blue {
+  background: #2c3e50;
+}
+
+.peter-river {
+  background: #3498db;
+}
+
+.dl {
+  background: #3d353578;
+  padding: 30px 0;
+  border-radius: 20px;
+  position: relative;
+}
+
+.dl:before {
+  content: " ";
+  height: 20px;
+  width: 20px;
+  background: #ddd;
+  border-radius: 20px;
+  position: absolute;
+  left: 50%;
+  top: 20px;
+  margin-left: -10px;
+}
+
+.dl .brand {
+  color: #f0f0f0;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 10px 15px;
+  margin-top: 10px;
+  text-align: center;
+  min-height: 100px;
+}
+
+.dl .discount {
+  min-height: 50px;
+  position: relative;
+  font-size: 80px;
+  line-height: 80px;
+  text-align: center;
+  font-weight: 700;
+  padding: 20px 15px 0;
+  color: #f1c40f;
+}
+
+.dl .discount:after {
+  content: " ";
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  position: absolute;
+  bottom: -20px;
+  left: 20%;
+}
+
+.dl .discount.alizarin:after {
+  border-top: 20px solid #e74c3c;
+}
+
+.dl .discount.peter-river:after {
+  border-top: 20px solid #3498db;
+}
+
+.dl .discount.emerald:after {
+  border-top: 20px solid #2ecc71;
+}
+
+.dl .discount.amethyst:after {
+  border-top: 20px solid #9b59b6;
+}
+
+.dl .discount .type {
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: -30px;
+}
+
+.dl .descr h3 {
+  color: #fbfbfb;
+  margin-top: 10px;
+  padding: 20px 15px;
+  font-size: 18px;
+}
+
+.dl .ends {
+  padding: 0 15px;
+  color: #f1c40f;
+  margin-bottom: 10px;
+}
+
+.dl .coupon {
+  min-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 20px 15px;
+}
+
+.dl .coupon a.open-code {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+/* navegador */
+.navegador ul li {
+  color: white;
+  padding: 0 20px;
+  font-size: 20px;
+}
+
+.navegador ul li a {
+  color: white;
+}
+
+/* Clientes */
+.counter-section i {
+  display: block;
+  margin: 0 0 10px;
+}
+
+.counter-section span.counter {
+  font-size: 40px;
+  color: white;
+  line-height: 60px;
+  display: block;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 2px;
+}
+
+.counter-title {
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.counter-icon {
+  top: 25px;
+  position: relative;
+}
+
+.counter-style2 .counter-title {
+  letter-spacing: 0.55px;
+  float: left;
+}
+
+.counter-style2 span.counter {
+  letter-spacing: 0.55px;
+  float: left;
+  margin-right: 10px;
+}
+
+.counter-style2 i {
+  float: right;
+  line-height: 26px;
+  margin: 0 10px 0 0;
+}
+
+.counter-subheadline span {
+  float: right;
+}
+
+.medium-icon {
+  font-size: 40px !important;
+  margin-bottom: 15px !important;
+  color: white;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+/* TESTIMONIOS */
+.testimonials-clean {
+  color: #ffffff;
+  background-color: #eef4f7;
+}
+
+.testimonials-clean p {
+  color: #7d8285;
+}
+
+.testimonials-clean h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit;
+}
+
+@media (max-width: 767px) {
+  .testimonials-clean h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+.testimonials-clean .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.testimonials-clean .intro p {
+  margin-bottom: 0;
+}
+
+.testimonials-clean .people {
+  padding: 50px 0 20px;
+}
+
+.testimonials-clean .item {
+  margin-bottom: 32px;
+}
+
+@media (min-width: 768px) {
+  .testimonials-clean .item {
+    height: 220px;
+  }
+}
+.testimonials-clean .item .box {
+  padding: 30px;
+  background-color: #fff;
+  position: relative;
+}
+
+.testimonials-clean .item .box:after {
+  content: "";
+  position: absolute;
+  left: 30px;
+  bottom: -24px;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-width: 12px 15px;
+  border-top-color: #fff;
+}
+
+.testimonials-clean .item .author {
+  margin-top: 28px;
+  padding-left: 25px;
+}
+
+.testimonials-clean .item .name {
+  font-weight: bold;
+  margin-bottom: 2px;
+  color: inherit;
+}
+
+.testimonials-clean .item .title {
+  font-size: 13px;
+  color: #9da9ae;
+}
+
+.testimonials-clean .item .description {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.testimonials-clean .item img {
+  max-width: 40px;
+  float: left;
+  margin-right: 12px;
+  margin-top: -5px;
+}
+
+.container-footer {
+  overflow: hidden;
+  margin-top: 250px;
+  background: #262626;
+  color: #ffffff !important;
+  font-size: 17px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.container-footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+}
+.container-footer i {
+  font-size: 30px;
+}
+
+small {
+  font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important;
+}
+
+.bold-text {
+  color: #989c9e !important;
+}
+
+.mt-55 {
+  margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important;
+}
+
+.titulo-footer {
+  font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important;
+}
+
+.social {
+  font-size: 21px !important;
+}
+
+.rights {
+  font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important;
+}
+
+/*# sourceMappingURL=style.css.map */

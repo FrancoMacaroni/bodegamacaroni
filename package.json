@@ -1,0 +1,19 @@
+{
+  "name": "pagina-de-vino",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrancoMacaroni/bodegamacaroni.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrancoMacaroni/bodegamacaroni/issues"
+  },
+  "homepage": "https://github.com/FrancoMacaroni/bodegamacaroni#readme"
+}
