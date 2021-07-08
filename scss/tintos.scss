@@ -1,0 +1,87 @@
+.body-tintos {
+    background: #000000
+}
+
+.details {
+    border: 1.5px solid grey;
+    color: #212121;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 10px #212121
+}
+
+.cart {
+    background-color: #212121;
+    color: white;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 900;
+    width: 100%;
+    height: 39px;
+    padding-top: 9px;
+    box-shadow: 0px 5px 10px #212121;
+}
+
+.card {
+    width: 400px;
+    margin: 20px;
+}
+
+.card-body-tinto {
+    width: fit-content
+}
+
+.btn {
+    border-radius: 0
+}
+
+.img-thumbnail {
+    border: none
+}
+
+.card {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    padding-bottom: 10px
+}
+
+
+
+
+/* nuestros vinos */
+
+.patterns {
+    margin-top: 80px;
+    height: 200px;
+  }
+  
+  svg text {
+    font-family: Lora;
+    letter-spacing: 10px;
+    stroke: #fdfdfd;
+    font-size: 150px;
+    font-weight: 700;
+    stroke-width: 3;
+   
+    animation: textAnimate 3s infinite alternate;
+    
+  }
+  
+  @keyframes textAnimate {
+    0% {
+      stroke-dasharray: 0 50%;
+      stroke-dashoffset:  20%;
+      fill:rgb(243, 175, 66)
+  
+    }
+    
+    100% {
+      stroke-dasharray: 50% 0;
+      stroke-dashoffstet: -20%;
+      fill: hsla(189, 68%, 75%,0%)
+    }
+    
+  }
+
+
+  
