@@ -32,7 +32,10 @@
 }
 
 .btn {
-    border-radius: 0
+    border-radius: 0;
+    width: 150px;
+    
+
 }
 
 .img-thumbnail {
@@ -44,8 +47,6 @@
     border-radius: 5px;
     padding-bottom: 10px
 }
-
-
 
 
 /* nuestros vinos */
@@ -83,5 +84,17 @@
     
   }
 
+/* -------------------------------------------------------------------------- */
+  /* VINOS TINTOS */
 
+  .caracteristicas-vino{
+    color: white;
+
+    h2{
+      font-size: 25px;
+    }
+  }
+
+
+  
   
